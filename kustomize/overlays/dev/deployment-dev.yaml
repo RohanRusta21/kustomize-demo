@@ -1,17 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: web-deployment
+  name: dev-deployment
 spec:
   replicas: 3 # Update the replica count to 3
   template:
     spec:
       containers:
       - name: nginx
-        resources:
-          limits:
-            cpu: "80" 
-            memory: "80Mi" 
-          requests:
-            cpu: "50" 
-            memory: "50Mi"
