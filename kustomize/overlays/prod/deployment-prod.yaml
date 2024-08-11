@@ -3,8 +3,9 @@ kind: Deployment
 metadata:
   name: deployment
 spec:
-  replicas: 5 # Update the replica count to 3
+  replicas: 5 # Update the replica count to 5
   template:
     spec:
       containers:
-      - name: nginx
+      - name: dev-app
+        image: ttl.sh/my-dev-app:12h

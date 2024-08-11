@@ -9,12 +9,11 @@ patches:
 namePrefix:
   dev-
 
+namespace: dev
+
 commonLabels:
   app: dev
 
-images:
-- name: ttl.sh/my-dev-app #my dev app
-  newTag: 12h #my dev app version
 
 
 

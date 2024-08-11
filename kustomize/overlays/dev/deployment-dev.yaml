@@ -7,6 +7,6 @@ spec:
   template:
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.14.2
+      - name: dev-app
+        image: ttl.sh/my-dev-app:12h
 
