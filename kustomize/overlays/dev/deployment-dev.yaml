@@ -8,5 +8,5 @@ spec:
     spec:
       containers:
       - name: dev-app
-        image: ttl.sh/my-dev-app:12h
+        image: ttl.sh/my-dev-app:1d
 
