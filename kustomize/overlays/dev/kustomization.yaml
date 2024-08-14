@@ -15,6 +15,10 @@ namespace: dev
 commonLabels:
   app: dev
 
+images:
+- name: nginx
+  newName: my.image.registry/nginx
+  newTag: 1.4.0
 
 
 
