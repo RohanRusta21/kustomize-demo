@@ -5,6 +5,7 @@ resources:
 patches:
 - path: deployment-prod.yaml
 - path: service-prod.yaml
+- path: namespace-prod.yaml
 
 namePrefix:
   prod-
