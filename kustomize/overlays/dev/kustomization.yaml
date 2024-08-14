@@ -17,8 +17,8 @@ commonLabels:
 
 images:
 - name: nginx
-  newName: my.image.registry/nginx
-  newTag: 1.4.0
+  newName: ttl.sh/my-dev-app
+  newTag: 1d
 
 
 
