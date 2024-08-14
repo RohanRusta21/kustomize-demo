@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../base
 - deployment-dev.yaml
-- service-dev.yaml
+#- service-dev.yaml
 - namespace-dev.yaml
 
 namePrefix:
