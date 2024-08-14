@@ -5,6 +5,7 @@ resources:
 patchesStrategicMerge:
 - path: deployment-dev.yaml
 - path: service-dev.yaml
+- path: namespace-dev.yaml
 
 namePrefix:
   dev-
