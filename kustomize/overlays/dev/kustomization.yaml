@@ -4,7 +4,6 @@ resources:
 - ../../base
 - deployment-dev.yaml
 #- service-dev.yaml # Uncomment if you have specific changes for service in the overlay
-- namespace-dev.yaml # Only include this if the namespace isn't already managed in the base
 
 namePrefix: dev-
 
