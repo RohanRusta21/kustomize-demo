@@ -12,7 +12,7 @@ namespace: dev
 commonLabels:
   app: dev
 
-images:
-- name: nginx
-  newName: ttl.sh/my-dev-app
-  newTag: 1d
+# images:
+# - name: nginx
+#   newName: ttl.sh/my-dev-app
+#   newTag: 1d
