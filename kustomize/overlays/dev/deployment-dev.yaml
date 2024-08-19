@@ -8,6 +8,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2 
+        image: ttl.sh/my-dev-app:1d # Overriding the image
         ports:
         - containerPort: 80
