@@ -3,11 +3,10 @@ kind: Kustomization
 resources:
 - ../../base
 - deployment-dev.yaml
-#- service-dev.yaml
-- namespace-dev.yaml
+#- service-dev.yaml # Uncomment if you have specific changes for service in the overlay
+- namespace-dev.yaml # Only include this if the namespace isn't already managed in the base
 
-namePrefix:
-  dev-
+namePrefix: dev-
 
 namespace: dev
 
@@ -18,6 +17,3 @@ images:
 - name: nginx
   newName: ttl.sh/my-dev-app
   newTag: 1d
-
-
-
