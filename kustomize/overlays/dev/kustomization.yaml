@@ -2,8 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../base
+
+patches:
 - deployment-dev.yaml
-#- service-dev.yaml # Uncomment if you have specific changes for service in the overlay
+
 
 namePrefix: dev-
 
